@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Blog</title>
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+            integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Italianno&family=Roboto:ital,wght@0,400;1,400;1,500;1,700&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script>
+            function myFunction() {
+              confirm("Are you sure to submit?");
+            }
+            </script>
+            
+    </head>
+    <body>
+
+        <!-- header starts here. -->
+
+
+        <header id="blog-header">
+            <figure class="logo-figure">
+                <i class="fab fa-autoprefixer logo"></i>
+            </figure>
+            <i class="fas fa-bars fa-4x" id="menu-icon"></i>
+            <nav aria-label="Main Menu" id="menu" class="hidden">
+                <ul role="menubar" aria-label="Main Menu">
+                    <li role="none"><a href="#" class="nav-link"
+                            role="menuitem">
+                            Home
+                        </a>
+                    </li>
+                    <li role="none"><a href="#" class="nav-link"
+                            role="menuitem">
+                            About
+                        </a>
+                    </li>
+                    <li role="none"><a href="#" class="nav-link"
+                            role="menuitem">
+                            Archives
+                        </a>
+                    </li>
+                    <li role="none"><a href="#" class="nav-link"
+                            role="menuitem">
+                            Blog Posts
+                        </a>
+                    </li>
+                    <li role="none"><a href="#" class="nav-link"
+                            role="menuitem">
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <!--header ends here -->
+
+        <!-- main starts here. -->
+        <main>
+            <!-- banner section starts here. -->
+
+            <section id="blog-banner-section">
+                <article>
+                    <h1 class="banner-heading">Web development</h1>
+                    <p class="banner-description text-justify">Web development
+                        is the work involved in developing a website for the
+                        Internet (World Wide Web) or an intranet (a private
+                        network). Web development can range from developing a
+                        simple single static page of plain text to complex web
+                        applications, electronic businesses, and social network
+                        services. A more comprehensive list of tasks to which
+                        Web development commonly refers, may include Web
+                        engineering, Web design, Web content development, client
+                        liaison, client-side/server-side scripting, Web server
+                        and network security configuration, and e-commerce
+                        development.
+                    </p>
+                </article>
+                <aside>
+                    <img src="images/cover-photo.jpg" alt="cover photo"
+                        class="banner-image"/>
+                </aside>
+            </section>
+
+            <!-- banner section ends here. -->
+
+            <!-- about-me section starts from here. -->
+
+            <section id="blog-about" class="section-center">
+                <h2 class="section-heading text-white">
+                    About me
+                </h2>
+                <div class="card-container">
+                    <!-- first card -->
+                    <div class="card">
+                        <h2 class="card-header">
+                            Education
+                        </h2>
+                        <p class="card-description">
+                            If you are a complete beginner, web development can
+                            be challenging — we will hold your hand and provide
+                            enough detail for you to feel comfortable and learn
+                            the topics properly. You should feel at home whether
+                            you are a student learning web development (on your
+                            own or as part of a class), a teacher looking for
+                            class materials, a hobbyist, or someone who just
+                            wants to understand more about how web technologies
+                            work.
+
+                        </p>
+                        <button type="submit" class="card-btn btn">
+                      Read more
+                        </button>
+                    </div>
+                    <!-- second card -->
+                    <div class="card">
+                        <h2 class="card-header">
+                            Skill
+                        </h2>
+                        <p class="card-description">
+                            Every experienced web developer will tell you to write code every day if you ask them for their best advice on how to improve your skills. While the advice may appear apparent, the plain truth is that it works.
+
+                            You will improve as a developer if you write code on a regular basis, just as you will improve at any skill by exercising it consistently. This will allow you to catch your errors and will also enhance your typing abilities, lowering your chances of making errors.
+                            
+                             You can practice using a variety of free internet programs. You will undoubtedly experience results if you remain consistent in your practice.
+                        </p>
+                        <button type="submit" class="card-btn btn">
+                      Read more
+                        </button>
+                    </div>
+                    <!-- third card -->
+                    <div class="card">
+                        <h2 class="card-header">
+                            Experience   
+                        </h2>
+                        <p class="card-description">
+                            Web developers design and build websites. They are typically responsible for the appearance, of the site and technical aspects, such as site speed and how much traffic the site can handle. Web developers may also create site content that requires technical features.
+
+                       They are sometimes known as web designers or full-stack developers if they can do both front-end and back-end development.
+                        </p>
+                        <button type="submit" class="card-btn btn">
+                      Read more
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- about-me section ends here. -->
+
+ <!-- archive section starts here. -->
+
+<section id="archives" class="section-center">
+    <h2 class="section-heading">Archives</h2>
+    <div class="archives-container">
+        <ul class="archives-container-lists">
+            <li class="archives-container-list">
+                <img src="./images/img-1.jpg" alt="image1" class="archives-img"/>
+            </li>
+            <li class="archives-container-list">
+                <img src="./images/img-2.jpg" alt="image1" class="archives-img"/>
+            </li>
+            <li class="archives-container-list">
+                <img src="./images/img-3.jpg" alt="image1" class="archives-img"/>
+            </li>
+            <li class="archives-container-list">
+                <img src="./images/img-1.jpg" alt="image1" class="archives-img"/>
+            </li>
+            <li class="archives-container-list">
+                <img src="./images/img-2.jpg" alt="image1" class="archives-img"/>
+            </li>
+        </ul>
+    </div>
+</section>
+
+
+ <!-- archive section ends here. -->
+
+ <!-- blog-post dection starts here. -->
+    <section id="blog-posts" class="section-center">
+<h2 class="section-heading blog-posts-heading">Blog Posts</h2>
+        <div class="blog-post">
+            <aside class="blog-post-aside">
+               <img src="./images/img-2.jpg" alt="laptop" class="blog-img"> 
+            </aside>
+            <article class="blog-content">
+                <h2 class="blog-heading">Blog 1
+                </h2>
+                <h3 class="blog-sub-heading">
+                    Software Development
+                </h3>
+                <p class="blog-description">
+                    Software development is the process of conceiving, specifying, designing, programming, documenting, testing, and bug fixing involved in creating and maintaining applications, frameworks, or other software components. Software development involves writing and maintaining the source code, but in a broader sense, it includes all processes from the conception of the desired software through to the final manifestation of the software, typically in a planned and structured process.Software development also includes research, new development, prototyping, modification, reuse, re-engineering, maintenance, or any other activities that result in software products.One system development methodology is not necessarily suitable for use by all projects.Each of the available methodologies are best suited to specific kinds of projects, based on various technical, organizational, project, and team considerations.
+
+                </p>
+                <button type="submit" class="btn blog-btn">
+                    Learn more
+                </button>
+            </article>
+        </div>
+        <div class="blog-post">
+            <aside class="blog-post-aside">
+               <img src="./images/img-2.jpg" alt="laptop" class="blog-img"> 
+            </aside>
+            <article class="blog-content">
+                <h2 class="blog-heading">Blog 2
+                </h2>
+                <h3 class="blog-sub-heading">
+                    Machine Learning
+                </h3>
+                <p class="blog-description">
+                    Machine learning (ML) is a field of inquiry devoted to understanding and building methods that 'learn', that is, methods that leverage data to improve performance on some set of tasks.It is seen as a part of artificial intelligence.
+                    Machine learning algorithms build a model based on sample data, known as training data, in order to make predictions or decisions without being explicitly programmed to do so. Machine learning algorithms are used in a wide variety of applications, such as in medicine, email filtering, speech recognition, agriculture, and computer vision, where it is difficult or unfeasible to develop conventional algorithms to perform the needed tasks. A subset of machine learning is closely related to computational statistics, which focuses on making predictions using computers, but not all machine learning is statistical learning. The study of mathematical optimization delivers methods, theory and application domains to the field of machine learning. Data mining is a related field of study, focusing on exploratory data analysis through unsupervised learning.
+
+
+                </p>
+                <button type="submit" class="btn blog-btn">
+                    Learn more
+                </button>
+            </article>
+        </div>
+        <div class="blog-post">
+            <aside class="blog-post-aside">
+               <img src="./images/img-2.jpg" alt="laptop" class="blog-img"> 
+            </aside>
+            <article class="blog-content">
+                <h2 class="blog-heading">Blog 3
+                </h2>
+                <h3 class="blog-sub-heading">
+                Graphics Design
+                </h3>
+                <p class="blog-description">
+                    Graphics design is a profession, academic discipline and applied art whose activity consists in projecting visual communications intended to transmit specific messages to social groups, with specific objectives. Graphic design is an interdisciplinary branch of design and of the fine arts. Its practice involves creativity, innovation and lateral thinking using manual or digital tools, where it is usual to use text and graphics to communicate visually.
+                    The role of the graphic designer in the communication process is that of encoder or interpreter of the message. They work on the interpretation, ordering, and presentation of visual messages. Usually, graphic design uses the aesthetics of typography and the compositional arrangement of the text, ornamentation, and imagery to convey ideas, feelings, and attitudes beyond what language alone expresses. The design work can be based on a customer's demand, a demand that ends up being established linguistically, either orally or in writing, that is, that graphic design transforms a linguistic message into a graphic manifestation.Graphic design has, as a field of application, different areas of knowledge focused on any visual communication system. For example, it can be applied in advertising strategies, or it can also be applied in the aviation world or space exploration. In this sense, in some countries graphic design is related as only associated with the production of sketches and drawings, this is incorrect, since visual communication is a small part of a huge range of types and classes where it can be applied.
+                </p>
+                <button type="submit" class="btn blog-btn">
+                    Learn more
+                </button>
+            </article>
+        </div>
+    </section>
+
+ <!-- blog-post section ends here. -->
+ 
+ <!-- contact section starts here. -->
+ <section id="contact-section" class="section-center">
+    <h2 class="section-heading blog-posts-heading text-white">
+      Contact Me
+    </h2>
+    <form action="" id="contact-form">
+      <div class="form-control">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required autocomplete="name" placeholder="Enter your name"/>
+      </div>
+      <div class="form-control">
+        <label for="email">Email:</label>
+        <input type="email" id="email" required autocomplete="email" placeholder="Enter your email address"/>
+      </div>
+      <div class="form-control">
+        <label for="password">Password:</label>
+        <input type="password" id="password" required autocomplete="password" placeholder="Enter your password" onclick="alert('The password must contain at least 8 characters.')" minlength="8" />
+      </div>
+      <div class="form-control">
+        <label for="mesage">Message:</label>
+        <textarea name="message" id="message" placeholder="Enter your message here..."></textarea>
+      </div>
+      
+      <div class="form-control form-btn-field">
+        <button type="submit" class="btn contact-btn" onclick="myFunction()">Submit</button>
+
+      </div>
+      
+    </form>
+  </section>
+  <!-- contact section ends here. -->
+
+        </main>
+
+        <!--main ends here-->
+
+        <!-- footer section starts here -->
+<footer>
+    <p class="copyright-text">
+        Copyright &copy; by Davoidsj . All rights have been reserved.
+    </p>
+    <nav aria-label="Footer Menu">
+        <ul role="menubar2" id="menubar2" aria-label="Footer Menu">
+          <li role="none">
+            <a
+              href="https://www.facebook.com/profile.php?id=100050370624021"
+              target="_blank"
+              class="nav-link"
+              role="menuitem"
+            >
+              <i class="fab fa-facebook footer-icon"></i>
+            </a>
+          </li>
+          <li role="none">
+            <a
+              href="https://www.youtube.com/channel/UCaQUlDsN9A1UsRPwQNzmFaw"
+              target="_blank"
+              class="nav-link"
+              role="menuitem"
+            >
+              <i class="fab fa-youtube footer-icon"></i>
+            </a>
+          </li>
+          <li role="none">
+            <a
+              href="https://github.com/Davoidsj"
+              target="_blank"
+              class="nav-link"
+              role="menuitem"
+            >
+              <i class="fab fa-github footer-icon"></i>
+            </a>
+          </li>
+          <li role="none">
+            <a
+              href="https://www.linkedin.com/in/technology-world-b75b56257/"
+              target="_blank"
+              class="nav-link"
+              role="menuitem"
+            >
+              <i class="fab fa-linkedin footer-icon"></i
+            ></a>
+          </li>
+        </ul>
+      </nav>
+     
+        <!-- footer section ends here -->
+        <script src="./scripts/index.js"></script>
+    </body>
+</html>
